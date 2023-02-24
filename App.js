@@ -21,7 +21,7 @@ export default function App() {
     setTask(null);
     Keyboard.dismiss();
   }
-
+ 
   const completeTask = (index) => {
     let newTasksList = [...taskItems];
     newTasksList.splice(index, 1);
@@ -114,4 +114,5 @@ const styles = StyleSheet.create({
   addText: {
     fontSize: 18
   },
+  
 });
